@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <title>Document</title>
+</head>
+<body class="font-oswald">
+    <!-- HEADER -->
+    <div class="header flex h-20 bg-slate-900 justify-around items-center">
+        <!-- LOGO -->
+        <div class="text-white text-3xl lg:text-4xl bg-gradient-to-r bg-clip-text text-transparent from-red-700 to-blue-400 px-3 py-2 hover:translate-x-2 transition duration-500">
+            <a href="">FILMOVIE</a>
+        </div>
+        <!-- LOGO END -->
+
+        <!-- MENU ITEMS -->
+        <nav class="hidden lg:flex text-white text-base lg:text-lg font-bold space-x-2 lg:space-x-8 tracking-widest">
+            <a href="#" class="hover:text-blue-200 hover:scale-110 transition duration-200">Home</a>
+            <a href="#" class="hover:text-blue-200 hover:scale-110 transition duration-500">Films</a>
+            <a href="#" class="hover:text-blue-200 hover:scale-110 transition duration-500">Series</a>
+            <a href="#" class="hover:text-blue-200 hover:scale-110 transition duration-500">Watch</a>
+            <a href="#" class="hover:text-blue-200 hover:scale-110 transition duration-500">Download</a>
+        </nav>
+        <!-- MENU ITEMS END -->
+
+        <!-- MENU RIGHT ITEMS -->
+        <div class="flex items-center">
+        <div class="hidden lg:flex">
+            <form>
+                <input class="mr-4 lg:mr-8 h-8 px-2 rounded hidden md:flex md:w-36 lg:w-52 border-0 focus:border-purple-400" type="text" placeholder="Search">
+            </form>
+        </div>
+        <!-- MOBILE MENU -->
+        <div class="flex flex-col lg:hidden space-y-2 cursor-pointer">
+            <div class="bg-blue-200 w-12 h-2 rounded"></div>
+            <div class="bg-blue-200 w-12 h-2 rounded"></div>
+            <div class="bg-blue-200 w-12 h-2 rounded"></div>
+        </div>
+        <!-- MOBILE MENU END-->
+        <div class="hidden lg:flex">
+            <button class="text-white text-lg bg-blue-900 px-3 py-2 rounded mx-2 hover:scale-105">Sign In</button>
+            <button class="text-white text-lg bg-purple-900 px-3 py-2 rounded hover:scale-105">Sign Up</button>
+        </div>
+        </div>
+        <!-- MENU RIGHT ITEMS END-->
+    </div>
+    <!-- HEADER END -->
+
+    <!-- SLIDER -->
+    <section class="relative group ">
+            <!-- SLIDER IMG -->
+            <img src="img/237-1280x500.jpg" class="w-full object-cover h-600 "> 
+            <!-- SLIDER IMG END -->
+
+            <!-- SLIDER INFO -->
+            <div class="absolute bottom-0 h-80 w-full bg-gradient-to-b from-transparent to-black overflow-hidden">
+                <div class="group flex mx-4 md:ml-20 mt-10 flex-col">
+
+                    <h3 class="text-blue-200 uppercase text-base md:text-2xl group-hover:-translate-y-11 transition duration-500">Action, Dram, Horror</h3>
+                    <h1 class="text-white text-2xl md:text-5xl mt-3 group-hover:-translate-y-11 transition duration-500"> En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN</h1>
+
+                    <p class="text-gray-200 mt-4 w-full md:w-2/3 h-20 text-sm md:text-base overflow-hidden group-hover:-translate-y-11 transition duration-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis omnis exercitationem modi dignissimos eius asperiores eos iure, quae illum incidunt tenetur suscipit, libero provident! Impedit saepe ab sapiente repudiandae nobis.
+                    Veritatis voluptatibus nisi minima cumque enim autem fuga fugit, saepe voluptate vitae fugiat aut quasi ratione maiores repellendus molestiae dicta? Soluta deleniti iure quas cum aliquid expedita aspernatur perspiciatis ducimus?
+                    Debitis modi, quasi atque minima ratione illo porro assumenda aliquam soluta fugiat maxime dolor expedita doloribus rerum error, repudiandae necessitatibus quidem odit corporis libero nostrum amet! Suscipit veritatis incidunt quisquam!
+                    Debitis modi, quasi atque minima ratione illo porro assumenda aliquam soluta fugiat maxime dolor expedita doloribus rerum error, repudiandae necessitatibus quidem odit corporis libero nostrum amet! Suscipit veritatis incidunt quisquam!</p>
+                    <div class="text-white cursor-pointer bg-purple-800 flex w-40 p-3 bottom-0 mt-3 group-hover:-translate-y-11 group-hover:z-10 transition duration-500 hover:scale-110">
+                        <i class="fa-solid fa-download mr-3 text-3xl"></i>
+                        <b class="text-2xl">İndir</b>
+                    </div>
+                </div>
+                <div class="flex h-52 w-full absolute bottom-0 bg-gradient-to-b from-transparent to-gray-900"></div>
+            </div>
+            <!-- SLIDER INFO -->
+
+    </section>
+    <!-- SLIDER END -->
+
+    <!-- CONTENT -->
+    <section class="flex py-10 bg-gray-900 justify-center">
+        <!--CONTAINER-->
+        <div class="container flex flex-col lg:flex-row space-x-4">
+            <!--LEFT CONTENT-->
+            <div class="basis-4/5 p-3">
+                <!--CONTENT MENU TITLE-->
+                <div class="flex space-x-3 divide-x divide-red-900 divide-opacity-80">
+                    <div class="text-3xl text-gray-200 hover:text-purple-400 hover:scale-105 transition duration-150">LATEST</div>
+                    <div class="text-3xl text-gray-200 pl-3 hover:text-blue-300 hover:scale-105 transition duration-150">POPULAR</div>
+                </div>
+                <!--CONTENT MENU TITLE END-->
+
+                <!--ITEMS CONTAINER-->
+                <div class="flex justify-around mt-10 flex-wrap gap-4">
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <!-- ITEM BACKGROUND IMG-->
+                        <img src="https://picsum.photos/id/234/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+                        <!-- ITEM BACKGROUND IMG END-->
+
+                        <!-- ITEM TOP INFO-->
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <!-- ITEM TOP INFO END-->
+
+                        <!-- ITEM BOTTOM INFO-->
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN </h6>
+                        </div>
+                        <!-- ITEM BOTTOM INFO END-->
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/233/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, consequatur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/232/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/231/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, a perspiciatis? Fugit, quisquam! Expedita, consequatur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/230/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">720p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/282/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/272/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">4K</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Altyazılı</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/222/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <!-- ITEM BACKGROUND IMG-->
+                        <img src="https://picsum.photos/id/334/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+                        <!-- ITEM BACKGROUND IMG END-->
+
+                        <!-- ITEM TOP INFO-->
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <!-- ITEM TOP INFO END-->
+
+                        <!-- ITEM BOTTOM INFO-->
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN </h6>
+                        </div>
+                        <!-- ITEM BOTTOM INFO END-->
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <!-- ITEM BACKGROUND IMG-->
+                        <img src="https://picsum.photos/id/335/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+                        <!-- ITEM BACKGROUND IMG END-->
+
+                        <!-- ITEM TOP INFO-->
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <!-- ITEM TOP INFO END-->
+
+                        <!-- ITEM BOTTOM INFO-->
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN </h6>
+                        </div>
+                        <!-- ITEM BOTTOM INFO END-->
+                    </div>
+                    <!-- ITEM END -->
+
+                      <!-- ITEM -->
+                      <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/123/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/416/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">4K</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Altyazılı</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <img src="https://picsum.photos/id/411/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 w-full items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">Lorem ipsum dolor sit amet consectetur. </h6>
+                        </div>
+                        
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <!-- ITEM BACKGROUND IMG-->
+                        <img src="https://picsum.photos/id/433/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+                        <!-- ITEM BACKGROUND IMG END-->
+
+                        <!-- ITEM TOP INFO-->
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <!-- ITEM TOP INFO END-->
+
+                        <!-- ITEM BOTTOM INFO-->
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN </h6>
+                        </div>
+                        <!-- ITEM BOTTOM INFO END-->
+                    </div>
+                    <!-- ITEM END -->
+
+                    <!-- ITEM -->
+                    <div class="relative group overflow-hidden cursor-pointer">
+                        <!-- ITEM BACKGROUND IMG-->
+                        <img src="https://picsum.photos/id/435/200/300" class="group-hover:scale-110 duration-300 h-64 md:h-72">
+                        <!-- ITEM BACKGROUND IMG END-->
+
+                        <!-- ITEM TOP INFO-->
+                        <div class="absolute top-0 p-2">
+                            <div class="flex space-x-1">
+                                <p class="text-xs md:text-base text-blue-200 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">1080p</p>
+                                <p class="text-xs md:text-base text-purple-300 bg-gray-800 p-2 bg-opacity-50 group-hover:bg-opacity-100 duration-300">Türkçe Dublaj</p>
+                            </div>
+                        </div>
+                        <!-- ITEM TOP INFO END-->
+
+                        <!-- ITEM BOTTOM INFO-->
+                        <div class="absolute flex bottom-0 bg-gradient-to-t from-black to-transparent h-32 items-end overflow-hidden">
+                            <h6 class="text-sm md:text-base text-white text-center m-2 group-hover:-translate-y-2 duration-300">En İyi Dostum Köpekler 1080p Türkçe Dublaj DUAL TR-EN </h6>
+                        </div>
+                        <!-- ITEM BOTTOM INFO END-->
+                    </div>
+                    <!-- ITEM END -->
+                </div>
+                <!--ITEMS CONTAINER END -->
+            </div>
+            <!--LEFT CONTENT END-->
+
+            <!--RIGHT CONTENT-->
+            <div class=" basis-1/5 p-3">
+                <!-- CONTAINER TITLE-->
+                <div class="flex flex-row space-x-3 justify-start">
+                    <div class="text-3xl text-gray-200 hover:text-purple-400 hover:scale-105 transition duration-150">WEEKLY BEST</div>
+                </div>
+                <!-- CONTAINER TITLE END-->
+
+                <div class="flex flex-col lg:flex-col gap-3"> 
+                     <!--ITEMS CONTAINER-->
+                <div class="flex flex-col items-center mt-10">
+                    <div class="relative group overflow-hidden w-2/3 lg:w-60">
+                        <!-- ITEM BACKGROUND IMAGE-->
+                        <img src="https://picsum.photos/id/261/400/400" class="w-full lg:w-60 h-60 group-hover:scale-110 duration-300">
+                        <!-- ITEM BACKGROUND IMAGE END-->
+
+                        <!-- ITEM INFO-->
+                        <div class="flex absolute bottom-0 text-center w-full h-full">
+                            <!-- ITEM TITLE-->
+                            <div class="flex w-full uppercase justify-center align-middle items-center text-white bg-black bg-opacity-30 hover:bg-black hover:bg-opacity-60 hover:text-white p-3 hover:text-xl duration-300 cursor-pointer">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </div>
+                            <!-- ITEM TITLE END-->
+                        </div>
+                        <!-- ITEM INFO END-->
+                    </div>
+                </div>
+                <!--ITEMS CONTAINER END-->
+                <div class="flex flex-col items-center mt-10">
+                    <div class="relative group overflow-hidden w-2/3 lg:w-60">
+                        <img src="https://picsum.photos/id/269/400/400" class="w-full lg:w-60 h-60 group-hover:scale-110 duration-300">
+
+                        <div class="flex absolute bottom-0 text-center w-full h-full">
+                            <div class="flex w-full uppercase justify-center align-middle items-center text-white bg-black bg-opacity-30 hover:bg-black hover:bg-opacity-60 hover:text-white p-3 hover:text-xl duration-300 cursor-pointer">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cum, asperiores optio voluptas odio expedita!
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center mt-10 ">
+                    <div class="relative group overflow-hidden w-2/3 lg:w-60">
+                        <img src="https://picsum.photos/id/264/400/400" class="w-full lg:w-60 h-60 group-hover:scale-110 duration-300">
+
+                        <div class="flex absolute bottom-0 text-center w-full h-full">
+                            <div class="flex w-full uppercase justify-center align-middle items-center text-white bg-black bg-opacity-30 hover:bg-black hover:bg-opacity-60 hover:text-white p-3 hover:text-xl duration-300 cursor-pointer">
+                                Lorem ipsum dolor sit amet, consectetur
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center mt-10">
+                    <div class="relative group overflow-hidden w-2/3 lg:w-60">
+                        <img src="https://picsum.photos/id/266/400/400" class="w-full lg:w-60 h-60 group-hover:scale-110 duration-300">
+
+                        <div class="flex absolute bottom-0 text-center w-full h-full">
+                            <div class="flex w-full uppercase justify-center align-middle items-center text-white bg-black bg-opacity-30 hover:bg-black hover:bg-opacity-60 hover:text-white p-3 hover:text-xl duration-300 cursor-pointer">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem, ipsum dolor.
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+               
+                
+                
+            </div>
+            <!--RIGHT CONTENT END-->
+        </div>
+        <!--CONTAINER END-->
+    </section>
+    <!-- CONTENT END -->
+
+    <!-- FOOTER -->
+    <footer class="flex w-full h-32 bg-gray-800 items-center justify-around">
+        <!--FOOTER LOGO-->
+        <div class="text-white text-3xl lg:text-4xl bg-gradient-to-r bg-clip-text text-transparent from-blue-400 to-red-700 px-3 py-2 hover:scale-125 transition duration-500">
+            <a href="">FILMOVIE</a>
+        </div>
+        <!--FOOTER LOGO END-->
+
+        <!-- COPYRIGHT TEXT-->
+        <div class="text-white">
+            2023 &copy; Design by Batuhan SANAT
+        </div>
+        <!-- COPYRIGHT TEXT-->
+
+        <!-- FOOTER MENU END-->
+        <div class="flex text-blue-200 no-underline list-none tracking-widest flex-col space-y-2 md:flex-row md:space-x-5 md:space-y-0">
+            <li>
+                <a href="#" class="flex hover:text-white hover:scale-110">Home</a>
+            </li>
+            <li>
+                <a href="#" class="flex hover:text-white hover:scale-110">Films</a>
+            </li>
+            <li>
+                <a href="#" class="flex hover:text-white hover:scale-110">Series</a>
+            </li>
+        </div>
+        <!-- FOOTER MENU END-->
+
+    </footer>
+    <!-- FOOTER END-->
+</body>
+</html>
