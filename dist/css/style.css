@@ -645,6 +645,10 @@ video {
   height: 15rem;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -774,6 +778,20 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
 }
 
 .rounded {
